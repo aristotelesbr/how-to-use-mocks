@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4da40ade-f048-42d2-a8b3-093b5e97d878" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/aristoteles/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/aristoteles/business/CourseBusiness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/aristoteles/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/business/CourseBusinessTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/service/stubs/CourseServiceStub.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2WXqWuA334SsvhzUgM23tYEocBZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "/Users/aristotelescosta/Projects/personal/how-to-use-mocks/src/main/java/br/com/aristoteles/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.CourseBusinessTest">
+    <configuration name="CourseBusinessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="how-to-use-mocks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.aristoteles.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.aristoteles.business" />
+      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.business.CourseBusinessTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseBusinessTest.testCoursesRelatedToSpring_When_UsingAsStub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="how-to-use-mocks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.aristoteles.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.aristoteles.business" />
+      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.business.CourseBusinessTest" />
+      <option name="METHOD_NAME" value="testCoursesRelatedToSpring_When_UsingAsStub" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseBusinessTest.testCoursesRelatedToSpring_When_UsingInvalidParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="how-to-use-mocks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.aristoteles.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.aristoteles.business" />
+      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.business.CourseBusinessTest" />
+      <option name="METHOD_NAME" value="testCoursesRelatedToSpring_When_UsingInvalidParam" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CourseBusinessTest" />
+        <item itemvalue="JUnit.CourseBusinessTest.testCoursesRelatedToSpring_When_UsingInvalidParam" />
+        <item itemvalue="JUnit.CourseBusinessTest.testCoursesRelatedToSpring_When_UsingAsStub" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4da40ade-f048-42d2-a8b3-093b5e97d878" name="Changes" comment="" />
+      <created>1696889310840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696889310840</updated>
+      <workItem from="1696889312748" duration="2733000" />
+      <workItem from="1696942194199" duration="221000" />
+      <workItem from="1696942441474" duration="97000" />
+      <workItem from="1696942543008" duration="394000" />
+      <workItem from="1696942958267" duration="228000" />
+      <workItem from="1696943223405" duration="3434000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/aristoteles/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
