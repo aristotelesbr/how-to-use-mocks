@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da40ade-f048-42d2-a8b3-093b5e97d878" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/aristoteles/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/aristoteles/business/CourseBusiness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/aristoteles/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/business/CourseBusinessTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/service/stubs/CourseServiceStub.java" afterDir="false" />
+    <list default="true" id="4da40ade-f048-42d2-a8b3-093b5e97d878" name="Changes" comment="feat: Add CourseBusiness and CourseService">
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/business/CourseBusinessStubTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/business/CourseBusinessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/business/CourseBusinessMockTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,25 +40,30 @@
     <option name="showScratchesAndConsoles" value="false" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "/Users/aristotelescosta/Projects/personal/how-to-use-mocks/src/main/java/br/com/aristoteles/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/aristotelescosta/Projects/personal/how-to-use-mocks/src/main/java/br/com/aristoteles/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.CourseBusinessTest">
-    <configuration name="CourseBusinessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.aristoteles.business" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CourseBusinessMockTest.testCoursesRelatedToSpring_When_UsingAsMock">
+    <configuration name="CourseBusinessMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="how-to-use-mocks" />
       <extension name="coverage">
         <pattern>
@@ -71,13 +72,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.aristoteles.business" />
-      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.business.CourseBusinessTest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.business.CourseBusinessMockTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourseBusinessTest.testCoursesRelatedToSpring_When_UsingAsStub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CourseBusinessMockTest.testCoursesRelatedToSpring_When_UsingAsMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="how-to-use-mocks" />
       <extension name="coverage">
         <pattern>
@@ -86,14 +87,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.aristoteles.business" />
-      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.business.CourseBusinessTest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.business.CourseBusinessMockTest" />
+      <option name="METHOD_NAME" value="testCoursesRelatedToSpring_When_UsingAsMock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseBusinessMockTest.testCoursesRelatedToSpring_When_UsingAsStub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="how-to-use-mocks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.aristoteles.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.aristoteles.business" />
+      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.business.CourseBusinessMockTest" />
       <option name="METHOD_NAME" value="testCoursesRelatedToSpring_When_UsingAsStub" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourseBusinessTest.testCoursesRelatedToSpring_When_UsingInvalidParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CourseBusinessMockTest.testCoursesRelatedToSpring_When_UsingInvalidParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="how-to-use-mocks" />
       <extension name="coverage">
         <pattern>
@@ -102,7 +119,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.aristoteles.business" />
-      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.business.CourseBusinessTest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.business.CourseBusinessMockTest" />
       <option name="METHOD_NAME" value="testCoursesRelatedToSpring_When_UsingInvalidParam" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -111,9 +128,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CourseBusinessTest" />
-        <item itemvalue="JUnit.CourseBusinessTest.testCoursesRelatedToSpring_When_UsingInvalidParam" />
-        <item itemvalue="JUnit.CourseBusinessTest.testCoursesRelatedToSpring_When_UsingAsStub" />
+        <item itemvalue="JUnit.CourseBusinessMockTest.testCoursesRelatedToSpring_When_UsingAsMock" />
+        <item itemvalue="JUnit.CourseBusinessMockTest" />
+        <item itemvalue="JUnit.CourseBusinessMockTest.testCoursesRelatedToSpring_When_UsingInvalidParam" />
+        <item itemvalue="JUnit.CourseBusinessMockTest.testCoursesRelatedToSpring_When_UsingAsStub" />
       </list>
     </recent_temporary>
   </component>
@@ -130,8 +148,34 @@
       <workItem from="1696942441474" duration="97000" />
       <workItem from="1696942543008" duration="394000" />
       <workItem from="1696942958267" duration="228000" />
-      <workItem from="1696943223405" duration="3434000" />
+      <workItem from="1696943223405" duration="5668000" />
+      <workItem from="1697024971330" duration="212000" />
     </task>
+    <task id="LOCAL-00001" summary="chore: Init project">
+      <option name="closed" value="true" />
+      <created>1696949296120</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696949296120</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test(): Add stubs and test for Business">
+      <option name="closed" value="true" />
+      <created>1696949364388</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696949364388</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: Add CourseBusiness and CourseService">
+      <option name="closed" value="true" />
+      <created>1696949400736</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696949400736</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +191,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: Init project" />
+    <MESSAGE value="test(): Add stubs and test for Business" />
+    <MESSAGE value="feat: Add CourseBusiness and CourseService" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add CourseBusiness and CourseService" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
