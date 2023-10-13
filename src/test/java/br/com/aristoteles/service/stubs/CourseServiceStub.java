@@ -10,7 +10,7 @@ public class CourseServiceStub implements CourseService {
     return Arrays.asList("Spring", "Spring Boot", "API", "Microservices");
   }
 
-  public void DeleteCourse(String course) {
+  public void deleteCourse(String course) {
     System.out.println(course + " Deleted!");
   }
 }
