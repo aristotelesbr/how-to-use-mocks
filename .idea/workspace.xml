@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da40ade-f048-42d2-a8b3-093b5e97d878" name="Changes" comment="chore: Create README.md">
+    <list default="true" id="4da40ade-f048-42d2-a8b3-093b5e97d878" name="Changes" comment="test: ensure CourseBusiness class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/mockito/HamcrestMatchersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/aristoteles/business/CourseBusiness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aristoteles/business/CourseBusiness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/aristoteles/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aristoteles/service/CourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/business/CourseBusinessWithBDDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/business/CourseBusinessWithBDDTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/service/stubs/CourseServiceStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/service/stubs/CourseServiceStub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,38 +66,7 @@
       <recent name="br.com.aristoteles.business" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CourseBusinessWithBDDTest.testDeleteCoursesNotRelatedToSpring_CapturingArguments_Should_CalMethod_DeleteCoursesNotRelatedToSpring_V2">
-    <configuration name="CourseBusinessMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="how-to-use-mocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.aristoteles.business.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.aristoteles.business" />
-      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.business.CourseBusinessMockTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CourseBusinessWithBDDTest.testCoursesRelatedToSpring_When_UsingAsMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="how-to-use-mocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.aristoteles.business.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.aristoteles.business" />
-      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.business.CourseBusinessWithBDDTest" />
-      <option name="METHOD_NAME" value="testCoursesRelatedToSpring_When_UsingAsMock" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.HamcrestMatchersTest">
     <configuration name="CourseBusinessWithBDDTest.testDeleteCoursesNotRelatedToSpring_CapturingArguments_Should_CalMethod_DeleteCoursesNotRelatedToSpring_V2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="how-to-use-mocks" />
       <extension name="coverage">
@@ -117,44 +83,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourseBusinessWithBDDTest.testDeleteCoursesNotRelatedToSpring_UsingMockitoVerify_Should_CalMethod_DeleteCoursesNotRelatedToSpring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HamcrestMatchersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="how-to-use-mocks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.aristoteles.business.*" />
+          <option name="PATTERN" value="br.com.aristoteles.mockito.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.aristoteles.business" />
-      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.business.CourseBusinessWithBDDTest" />
-      <option name="METHOD_NAME" value="testDeleteCoursesNotRelatedToSpring_UsingMockitoVerify_Should_CalMethod_DeleteCoursesNotRelatedToSpring" />
+      <option name="PACKAGE_NAME" value="br.com.aristoteles.mockito" />
+      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.mockito.HamcrestMatchersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HamcrestMatchersTest.testHamcrestArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="how-to-use-mocks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.aristoteles.mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.aristoteles.mockito" />
+      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.mockito.HamcrestMatchersTest" />
+      <option name="METHOD_NAME" value="testHamcrestArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HamcrestMatchersTest.testHamcrestMatchers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="how-to-use-mocks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.aristoteles.business.*" />
+          <option name="PATTERN" value="br.com.aristoteles.mockito.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.aristoteles.business" />
-      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.business.ListTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="br.com.aristoteles.mockito" />
+      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.mockito.HamcrestMatchersTest" />
+      <option name="METHOD_NAME" value="testHamcrestMatchers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HamcrestMatchersTest.testHamcrestStringMatchers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="how-to-use-mocks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.aristoteles.mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.aristoteles.mockito" />
+      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.mockito.HamcrestMatchersTest" />
+      <option name="METHOD_NAME" value="testHamcrestStringMatchers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HamcrestMatchersTest" />
+        <item itemvalue="JUnit.HamcrestMatchersTest.testHamcrestArray" />
+        <item itemvalue="JUnit.HamcrestMatchersTest.testHamcrestStringMatchers" />
+        <item itemvalue="JUnit.HamcrestMatchersTest.testHamcrestMatchers" />
         <item itemvalue="JUnit.CourseBusinessWithBDDTest.testDeleteCoursesNotRelatedToSpring_CapturingArguments_Should_CalMethod_DeleteCoursesNotRelatedToSpring_V2" />
-        <item itemvalue="JUnit.CourseBusinessWithBDDTest.testCoursesRelatedToSpring_When_UsingAsMock" />
-        <item itemvalue="JUnit.CourseBusinessWithBDDTest.testDeleteCoursesNotRelatedToSpring_UsingMockitoVerify_Should_CalMethod_DeleteCoursesNotRelatedToSpring" />
-        <item itemvalue="JUnit.ListTest" />
-        <item itemvalue="JUnit.CourseBusinessMockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +174,7 @@
       <workItem from="1697106628812" duration="86000" />
       <workItem from="1697106777691" duration="6039000" />
       <workItem from="1697195737726" duration="6554000" />
-      <workItem from="1697220100312" duration="416000" />
+      <workItem from="1697220100312" duration="1614000" />
     </task>
     <task id="LOCAL-00001" summary="chore: Init project">
       <option name="closed" value="true" />
@@ -234,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697197398723</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test: ensure CourseBusiness class">
+      <option name="closed" value="true" />
+      <created>1697221639487</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697221639487</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +265,8 @@
     <MESSAGE value="test: add matchers for list" />
     <MESSAGE value="test: use hamcrest" />
     <MESSAGE value="chore: Create README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: Create README.md" />
+    <MESSAGE value="test: ensure CourseBusiness class" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: ensure CourseBusiness class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
