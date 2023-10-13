@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da40ade-f048-42d2-a8b3-093b5e97d878" name="Changes" comment="test: use mockito to tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/business/CourseBusinessWithBDDTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/business/ListTest.java" afterDir="false" />
+    <list default="true" id="4da40ade-f048-42d2-a8b3-093b5e97d878" name="Changes" comment="test: use hamcrest">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/aristoteles/business/CourseBusiness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aristoteles/business/CourseBusiness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/aristoteles/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aristoteles/service/CourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/service/stubs/CourseServiceStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/service/stubs/CourseServiceStub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="showPreview" value="true" />
   </component>
@@ -43,23 +42,24 @@
     <option name="showScratchesAndConsoles" value="false" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/aristotelescosta/Projects/personal/how-to-use-mocks/src/main/java/br/com/aristoteles/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/aristotelescosta/Projects/personal/how-to-use-mocks/src/main/java/br/com/aristoteles/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.aristoteles.business" />
@@ -171,7 +171,7 @@
       <workItem from="1697024971330" duration="1994000" />
       <workItem from="1697106628812" duration="86000" />
       <workItem from="1697106777691" duration="6039000" />
-      <workItem from="1697195737726" duration="644000" />
+      <workItem from="1697195737726" duration="1405000" />
     </task>
     <task id="LOCAL-00001" summary="chore: Init project">
       <option name="closed" value="true" />
@@ -205,7 +205,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697025308576</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test: add matchers for list">
+      <option name="closed" value="true" />
+      <created>1697196525497</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697196525497</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test: use hamcrest">
+      <option name="closed" value="true" />
+      <created>1697196596847</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697196596847</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +243,9 @@
     <MESSAGE value="test(): Add stubs and test for Business" />
     <MESSAGE value="feat: Add CourseBusiness and CourseService" />
     <MESSAGE value="test: use mockito to tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: use mockito to tests" />
+    <MESSAGE value="test: add matchers for list" />
+    <MESSAGE value="test: use hamcrest" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: use hamcrest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
