@@ -9,4 +9,8 @@ public class CourseServiceStub implements CourseService {
   public List<String> retrieveCourses(String student) {
     return Arrays.asList("Spring", "Spring Boot", "API", "Microservices");
   }
+
+  public void DeleteCourse(String course) {
+    System.out.println(course + " Deleted!");
+  }
 }
