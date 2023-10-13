@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da40ade-f048-42d2-a8b3-093b5e97d878" name="Changes" comment="test: ensure CourseBusiness class">
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/mockito/HamcrestMatchersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4da40ade-f048-42d2-a8b3-093b5e97d878" name="Changes" comment="test: added HamcrestMatchersTest examples" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +171,7 @@
       <workItem from="1697106628812" duration="86000" />
       <workItem from="1697106777691" duration="6039000" />
       <workItem from="1697195737726" duration="6554000" />
-      <workItem from="1697220100312" duration="1614000" />
+      <workItem from="1697220100312" duration="2000000" />
     </task>
     <task id="LOCAL-00001" summary="chore: Init project">
       <option name="closed" value="true" />
@@ -240,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697221639487</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test: added HamcrestMatchersTest examples">
+      <option name="closed" value="true" />
+      <created>1697223019160</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697223019160</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +271,8 @@
     <MESSAGE value="test: use hamcrest" />
     <MESSAGE value="chore: Create README.md" />
     <MESSAGE value="test: ensure CourseBusiness class" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: ensure CourseBusiness class" />
+    <MESSAGE value="test: added HamcrestMatchersTest examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: added HamcrestMatchersTest examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
