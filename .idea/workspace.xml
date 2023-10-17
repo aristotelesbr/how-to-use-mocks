@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da40ade-f048-42d2-a8b3-093b5e97d878" name="Changes" comment="chore: fix software design">
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/mockito/CourseBusinessMockitoInjectMocksTest.java" afterDir="false" />
+    <list default="true" id="4da40ade-f048-42d2-a8b3-093b5e97d878" name="Changes" comment="test: use annotation">
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/aristoteles/mockito/SpyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +80,7 @@
       <recent name="br.com.aristoteles.business" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CourseBusinessMockitoInjectMocksTest">
+  <component name="RunManager" selected="JUnit.SpyTest.testSpyV5">
     <configuration name="CourseBusinessMockitoInjectMocksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="how-to-use-mocks" />
       <extension name="coverage">
@@ -111,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HamcrestMatchersTest.testHamcrestArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="how-to-use-mocks" />
       <extension name="coverage">
         <pattern>
@@ -120,14 +120,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.aristoteles.mockito" />
-      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.mockito.HamcrestMatchersTest" />
-      <option name="METHOD_NAME" value="testHamcrestArray" />
+      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.mockito.SpyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpyTest.testSpyV1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="how-to-use-mocks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.aristoteles.mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.aristoteles.mockito" />
+      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.mockito.SpyTest" />
+      <option name="METHOD_NAME" value="testSpyV1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HamcrestMatchersTest.testHamcrestMatchers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpyTest.testSpyV5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="how-to-use-mocks" />
       <extension name="coverage">
         <pattern>
@@ -136,24 +151,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.aristoteles.mockito" />
-      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.mockito.HamcrestMatchersTest" />
-      <option name="METHOD_NAME" value="testHamcrestMatchers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HamcrestMatchersTest.testHamcrestStringMatchers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="how-to-use-mocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.aristoteles.mockito.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.aristoteles.mockito" />
-      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.mockito.HamcrestMatchersTest" />
-      <option name="METHOD_NAME" value="testHamcrestStringMatchers" />
+      <option name="MAIN_CLASS_NAME" value="br.com.aristoteles.mockito.SpyTest" />
+      <option name="METHOD_NAME" value="testSpyV5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpyTest.testSpyV5" />
+        <item itemvalue="JUnit.SpyTest" />
+        <item itemvalue="JUnit.SpyTest.testSpyV1" />
         <item itemvalue="JUnit.CourseBusinessMockitoInjectMocksTest" />
         <item itemvalue="JUnit.HamcrestMatchersTest" />
-        <item itemvalue="JUnit.HamcrestMatchersTest.testHamcrestArray" />
-        <item itemvalue="JUnit.HamcrestMatchersTest.testHamcrestStringMatchers" />
-        <item itemvalue="JUnit.HamcrestMatchersTest.testHamcrestMatchers" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +187,7 @@
       <workItem from="1697106777691" duration="6039000" />
       <workItem from="1697195737726" duration="6554000" />
       <workItem from="1697220100312" duration="3429000" />
-      <workItem from="1697540136219" duration="1820000" />
+      <workItem from="1697540136219" duration="3417000" />
     </task>
     <task id="LOCAL-00001" summary="chore: Init project">
       <option name="closed" value="true" />
@@ -278,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697223982936</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test: use annotation">
+      <option name="closed" value="true" />
+      <created>1697547501345</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697547501345</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +313,8 @@
     <MESSAGE value="test: ensure CourseBusiness class" />
     <MESSAGE value="test: added HamcrestMatchersTest examples" />
     <MESSAGE value="chore: fix software design" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: fix software design" />
+    <MESSAGE value="test: use annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: use annotation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
